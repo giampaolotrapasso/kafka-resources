@@ -43,3 +43,15 @@ Not strictly related to Kafka but important to get the big picture. [Post](http:
 #### Jakob Korab - Magical Messaging Fabric
 This talk compares and contrasts the approaches taken by two similar but fundamentally different messaging platforms – Apache ActiveMQ and Apache Kafka. It discusses how their underlying philosophies impact message distribution, reliability, scalability, and performance.
 [Video](https://www.youtube.com/watch?v=-31XLjlt3wc)
+
+
+# Security
+
+#### Apache Kafka Security 101
+A detailed post by Ismael Juma about securing a Kafka cluster using both Kerberos and TSL. As bonus, the proposed example is downloadable as Vagrant.
+[Post](http://www.confluent.io/blog/apache-kafka-security-authorization-authentication-encryption)
+
+
+#### End to end encryption though Kafka: our proof of concept
+A post that discusses custom encryption through Kafka. It's prior to 0.9.0 that introduces TSL. _After 0.9.0, use TSL to encrypt on the wire, and OS disk encryption for data at rest_.
+[Post](http://www.symantec.com/connect/blogs/end-end-encryption-though-kafka-our-proof-concept)
