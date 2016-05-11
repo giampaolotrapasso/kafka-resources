@@ -3,6 +3,9 @@
 #### The Log: What every software engineer should know about real-time data's unifying abstraction
 The milestone post by Jay Kreps. Read this first! [Post](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 
+#### Apache Kafka for beginners
+Introduction to Apache Kafka [Post](http://blog.cloudera.com/blog/2014/09/apache-kafka-for-beginners/)
+
 #### Message Distribution and Topic Partitioning in Kafka
 An introductory post on Kafka topic ("kTopic") and partitioning
 [Post](http://www.jakubkorab.net/2015/12/message-distribution-and-topic-partitioning-in-kafka.html)
@@ -55,3 +58,8 @@ A detailed post by Ismael Juma about securing a Kafka cluster using both Kerbero
 #### End to end encryption though Kafka: our proof of concept
 A post that discusses custom encryption through Kafka. It's prior to 0.9.0 that introduces TSL. _After 0.9.0, use TSL to encrypt on the wire, and OS disk encryption for data at rest_.
 [Post](http://www.symantec.com/connect/blogs/end-end-encryption-though-kafka-our-proof-concept)
+
+# Misc
+#### Bottled Water: Real-time integration of PostgreSQL and Kafka
+Martin Kleppmann presents its project based on Kafka aimed to read changes on a PostgreSQL database. This allows realtime duplication of database and streaming of changes toward other systems.
+[Post](http://www.confluent.io/blog/bottled-water-real-time-integration-of-postgresql-and-kafka/)
