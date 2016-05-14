@@ -10,6 +10,10 @@ Introduction to Apache Kafka [Post](http://blog.cloudera.com/blog/2014/09/apache
 An introductory post on Kafka topic ("kTopic") and partitioning
 [Post](http://www.jakubkorab.net/2015/12/message-distribution-and-topic-partitioning-in-kafka.html)
 
+#### Kafka 101: producing and consuming plain-text messages with standard Java code
+_to read_
+[Post](http://aseigneurin.github.io/2016/03/02/kafka-spark-avro-kafka-101.html)
+
 # Replication
 
 ### Hands-free Kafka Replication: A lesson in operational simplicity
@@ -58,6 +62,15 @@ A detailed post by Ismael Juma about securing a Kafka cluster using both Kerbero
 #### End to end encryption though Kafka: our proof of concept
 A post that discusses custom encryption through Kafka. It's prior to 0.9.0 that introduces TSL. _After 0.9.0, use TSL to encrypt on the wire, and OS disk encryption for data at rest_.
 [Post](http://www.symantec.com/connect/blogs/end-end-encryption-though-kafka-our-proof-concept)
+
+# Spark
+
+#### Kafka, Spark and Avro - Part 2, Consuming Kafka messages with Spark
+_to read_ [Post](http://aseigneurin.github.io/2016/03/03/kafka-spark-avro-consume-messages-with-spark.html)
+
+#### Kafka, Spark and Avro - Part 3, Producing and consuming Avro messages
+_to read_ [Post](http://aseigneurin.github.io/2016/03/04/kafka-spark-avro-producing-and-consuming-avro-messages.html)
+
 
 # Misc
 #### Bottled Water: Real-time integration of PostgreSQL and Kafka
